@@ -1,0 +1,72 @@
+<!--  ./views/index.handlebars -->
+<div class="container py-5">
+
+  <div class="row">
+
+    <div class="col-12 mx-auto">
+      <form method="POST" action="/">
+        <div class="card">
+          <div class="card-body row">
+            <div class="card col-4" style="width: 15rem;">
+              <img class="card-img-top"
+                src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg"
+                alt="Card image cap" width="250" height="350">
+              <div class="card-body">
+                <input type="radio" id="engineer" name="choose" value="engineer" checked>
+                <label for="engineer">工程師</label>
+              </div>
+            </div>
+            <div class="card col-4" style="width: 15rem;">
+              <img class="card-img-top"
+                src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg"
+                alt="Card image cap" width="250" height="350">
+              <div class="card-body">
+                <input type="radio" id="designer" name="choose" value="designer">
+                <label for="designer">設計師</label>
+              </div>
+            </div>
+            <div class="card col-4" style="width: 15rem;">
+              <img class="card-img-top"
+                src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg"
+                alt="Card image cap" width="250" height="350">
+              <div class="card-body">
+                <input type="radio" id="entrepreneur" name="choose" value="entrepreneur">
+                <label for="entrepreneur">創業家</label>
+              </div>
+            </div>
+
+            <div class="card col-5" style="width: 15rem;">
+              <img class="card-img-top" src="https://i.ytimg.com/vi/5qeY9f0hrxc/maxresdefault.jpg" alt="Card image cap"
+                width="250" height="350">
+              <div class="card-body">
+                <input type="radio" id="wayne" name="choose" value="wayne">
+                <label for="wayne">鼻地大師國動</label>
+              </div>
+            </div>
+
+
+
+            <div class="mt-4 ml-4 w-50">
+              <button class="btn btn-success mr-3" type="submit">Generate Fuckword</button>
+
+
+              <div class="jumbotron mt-4 w-100 h-75" style="background-color: rgb(187, 187, 187)">
+                <code class="mr-4"><h2>{{fuckword}}</h2></code>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
