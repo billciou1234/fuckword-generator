@@ -33,4 +33,5 @@ NVM
 
 5.當terminal 出現以下字樣，表示伺服器與資料庫已啟動並成功連結
 
-The Express server is running on http://localhost:3000
+Express app listening on port 3000.
+
